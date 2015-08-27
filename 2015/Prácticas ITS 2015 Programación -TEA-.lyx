@@ -1,0 +1,1914 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\begin_preamble
+\usepackage{fancyhdr} %activamos el paquete
+
+\pagestyle{fancy} %seleccionamos un estilo
+
+\lhead{\partname:  \thepart} %texto izquierda de la cabecera
+
+%\chead{Técnico en Programación} %texto centro de la cabecera
+
+\rhead{Código de Empresa: EE1230072}
+%número de página a la derecha: \rhead{\thepage }
+
+%texto izquierda del pie:
+
+\lfoot{Técnico en Programación}
+
+\rfoot{Proyecto 3} %texto derecha del pie
+
+\renewcommand{\headrulewidth}{0.4pt} % grosor de la línea de la cabecera
+
+\renewcommand{\footrulewidth}{0.4pt} %grosor de la línea del pie 
+\end_preamble
+\use_default_options true
+\begin_modules
+theorems-ams
+eqs-within-sections
+figs-within-sections
+\end_modules
+\maintain_unincluded_children false
+\language spanish
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans helvet
+\font_typewriter default
+\font_default_family sfdefault
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 11
+\spacing single
+\use_hyperref true
+\pdf_author "Pablo Cánepa"
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder true
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle true
+\papersize a4paper
+\use_geometry true
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2.5cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+renewcommand{
+\backslash
+partname}{Bloque}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part
+Anexo 1.1
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Shadowbox
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Title
+
+\shape smallcaps
+\size giant
+Instituto Técnico Salesiano Villada
+\shape default
+\size default
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset VSpace 5cm
+\end_inset
+
+CUE:1403422-00
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset VSpace medskip
+\end_inset
+
+Código de Empresa:EE1230072
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset VSpace defskip
+\end_inset
+
+Zona de Supervisión:R9M6
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset VSpace defskip
+\end_inset
+
+Especialidad: Programación
+\end_layout
+
+\begin_layout Date
+octubre de 2015
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part
+Descripción del Proyecto
+\end_layout
+
+\begin_layout Section
+Objetivos
+\end_layout
+
+\begin_layout Standard
+Que las prácticas profesionalizantes logren: 
+\end_layout
+
+\begin_layout Itemize
+Favorecer en los estudiantes la integración de las competencias adquiridas
+ durante los años de escolaridad.
+ 
+\end_layout
+
+\begin_layout Itemize
+Demostrar la incorporación de dichas competencias y su ejecución efectiva.
+ 
+\end_layout
+
+\begin_layout Itemize
+Lograr en los aprendices autonomía de trabajo, responsabilidad, conciencia
+ social.
+ 
+\end_layout
+
+\begin_layout Itemize
+Posibilitar un espacio de creatividad y trabajo en equipo.
+ 
+\end_layout
+
+\begin_layout Itemize
+Brindar a los aprendices la posibilidad de experimentar entornos productivos
+ reales.
+\end_layout
+
+\begin_layout Section
+Acciones Formativas
+\end_layout
+
+\begin_layout Subsection
+Resumen descriptivo del Proyecto
+\end_layout
+
+\begin_layout Standard
+Se aplicará a la especialidad Técnico en Programación.
+ Se prevé insertar al alumno en una situación real, donde tendrá que dar
+ respuesta desde la especificidad del Perfil Profesional del Técnico en
+ Programación, a las necesidades informáticas de la Fundación TEA (Transtorno
+ del Expectro Autista) Córdoba.
+ Más precisamente, aplicaciones interactivas para los que padecen el transtorno
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Fruto de charlas informales con padres pertenecientes a la fundación comentaban
+ lo beneficioso que resultan estas aplicaciones que colaboran con su problema
+ de comunicación.
+\end_layout
+
+\end_inset
+
+ y software para el seguimiento de las historias clínicas de los chicos,
+ utilizando la metodología Scrum
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Más detalles ver el Anexo 2.1 
+\begin_inset CommandInset ref
+LatexCommand vpageref
+reference "part:Anexo-2.1"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+.
+ Es decir, a partir del concepto de la necesidad del cliente, construye
+ la solución de forma incremental a través de iteraciones (repeticiones).
+ Estas iteraciones (en Scrum llamadas sprints) se repiten de forma continua
+ hasta que el cliente da por finalizado el producto.
+ Cabe destacar que cada iteración no solo disminuye la ansiedad del cliente,
+ ayudando a reducir el gap entre lo solicitado y lo obtenido, sino que se
+ constituye en una herramienta docimológica fundamental para la acreditación
+ final de la Práctica Profesionalizante.
+\end_layout
+
+\begin_layout Standard
+La Práctica la llevará adelante un grupo de 7 alumnos que simularán una
+ empresa de software, que funcionará 
+\begin_inset Quotes eld
+\end_inset
+
+incubada
+\begin_inset Quotes erd
+\end_inset
+
+ dentro de una empresa real, que le brindará soporte, tutoría y eventuales
+ capacitaciones.
+ Para éste caso esperamos contar con la colaboración de la empresa Taller
+ Technologies.
+\end_layout
+
+\begin_layout Standard
+De este modo logramos hacer una síntesis entre las siguientes modalidades
+ de Prácticas requeridas:
+\end_layout
+
+\begin_layout Itemize
+Empresas simuladas.
+\end_layout
+
+\begin_layout Itemize
+Pasantías en empresas.
+\end_layout
+
+\begin_layout Section
+Cronograma
+\end_layout
+
+\begin_layout Standard
+Ciclo Lectivo 2015, comenzando en agosto.
+ 
+\end_layout
+
+\begin_layout Standard
+1 día a la semana, 8 horas, 30 semanas: 240 horas.
+ 
+\end_layout
+
+\begin_layout Standard
+En la empresa incubadora (Taller Techologies) los martes y jueves por la
+ mañana (de 8:00 a 12:00).
+ Los meses de septiembre y octubre.
+\end_layout
+
+\begin_layout Section
+Actividades a desarrollar por los actores
+\end_layout
+
+\begin_layout Subsection
+Por parte de los alumnos
+\end_layout
+
+\begin_layout Standard
+Se pretende que todos los alumnos pasen (en mayor o menor medida) por todas
+ las funciones/roles del proyecto.
+ Las funciones/roles son: 
+\end_layout
+
+\begin_layout Description
+Equipo
+\begin_inset space ~
+\end_inset
+
+de
+\begin_inset space ~
+\end_inset
+
+desarrollo
+\begin_inset space ~
+\end_inset
+
+(the
+\begin_inset space ~
+\end_inset
+
+team): El equipo está conformado por aquellos a los que les gusta diseñar
+ páginas web, trabajar con bases de datos, programar la lógico, maquetar
+ y jugar con hojas de estilo, etc.
+ por nombrar algunos.
+ En el momento de conformar estos grupos los docentes supervisaran los integrant
+es para lograr un equilibrio en la suma de habilidades buscando un equipo
+ de multitareas.
+ 
+\end_layout
+
+\begin_layout Description
+Scrum
+\begin_inset space ~
+\end_inset
+
+Master
+\begin_inset space ~
+\end_inset
+
+-
+\begin_inset space ~
+\end_inset
+
+Team
+\begin_inset space ~
+\end_inset
+
+Leader: Una tarea importante que se le dará al alumno que tome este rol,
+ será el de interactuar para lograr una fluida y muy buena comunicación
+ entre los integrantes del grupo durante el desarrollo del sprint.
+ 
+\end_layout
+
+\begin_layout Subsection
+Por parte de los docentes
+\end_layout
+
+\begin_layout Standard
+Los docentes de la Práctica sólo son tutores-guía que observan el desempeño
+ del alumno y articulan con docentes de otras áreas para el apoyo didáctico
+ en la recuperación de saberes.
+ 
+\end_layout
+
+\begin_layout Standard
+Los docentes de las demás áreas formativas serán los encargados de apoyar
+ , en caso de ser necesario, el proceso de recuperar saberes adquiridos
+ en años anteriores y de realizar las adecuaciones en base a las necesidades
+ de cada alumno para el desarrollo del producto objeto del proyecto.
+ 
+\end_layout
+
+\begin_layout Standard
+Se prevé la intervención de Profesionales del medio
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Gracias a la cooperación de la empresas ante nombrada.
+\end_layout
+
+\end_inset
+
+, como coaching en determinadas áreas específicas.
+ 
+\end_layout
+
+\begin_layout Standard
+El docente que mediará en primera instancia entre los estudiantes y el cliente
+ y que tendrá el rol denominado “Product Owner” será el Prof.
+ Gonzalo Dalto.
+ 
+\end_layout
+
+\begin_layout Standard
+Una tarea importante de los docentes a cargo del espacio curricular 
+\begin_inset Quotes eld
+\end_inset
+
+Formación en Ambiente de Trabajo
+\begin_inset Quotes erd
+\end_inset
+
+, será lograr que el “product owner” se involucre activamente en el desarrollo
+ del sistema.
+ 
+\end_layout
+
+\begin_layout Standard
+Además, esta previsto involucrar a este docente para que sea parte de la
+ evaluación del grupo en la reunión de retrospectiva, pudiendo participar,
+ si así lo decidiera, en la acreditación académica de cada integrante del
+ grupo.
+\end_layout
+
+\begin_layout Section
+Criterios de evaluación
+\end_layout
+
+\begin_layout Standard
+Se tendrán tres modalidades de evaluación: 
+\end_layout
+
+\begin_layout Enumerate
+Evaluación Formativa: Permanente, durante el proceso.
+ Asistiendo, cuando sea posible a la revisión diaria del Sprint.
+ O solicitando informes al Scrum Master.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Evaluación Sumativa: En cada revisión del Sprint.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Acreditación: Cuando disminuya considerablemente la pila del producto “Product
+ Backlog”, en conjunto con el Dueño del Producto
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Docente que tiene el rol de 
+\begin_inset Quotes eld
+\end_inset
+
+Product Owner
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Section
+Proyectos (Especialidad en Programación)
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Definir tipo, ejemplo, Pasantías, etc.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+Para la Práctica Profesionalizante, hemos elaborado los siguientes Proyectos:
+\end_layout
+
+\begin_layout Description
+Proyecto
+\begin_inset space ~
+\end_inset
+
+1: 
+\end_layout
+
+\begin_layout Description
+Proyecto
+\begin_inset space ~
+\end_inset
+
+2: 
+\end_layout
+
+\begin_layout Description
+Proyecto
+\begin_inset space ~
+\end_inset
+
+3: Sistemas para la Fundación TEA (Transtorno del Expectro Autista) Córdoba.
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+renewcommand{
+\backslash
+partname}{Anexo}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+setcounter{secnumdepth}{0} 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part*
+Anexo 2.1
+\begin_inset CommandInset label
+LatexCommand label
+name "part:Anexo-2.1"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Definición
+\end_layout
+
+\begin_layout Standard
+Según Wikipedia
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Enciclopedia on line Wikipedia.
+ 
+\emph on
+Scrum
+\emph default
+.
+ Disponible en: 
+\begin_inset CommandInset href
+LatexCommand href
+target "http://es.wikipedia.org/wiki/Scrum"
+
+\end_inset
+
+.
+ Consultado en agosto de 2014.
+\end_layout
+
+\end_inset
+
+: Scrum es un marco de trabajo para la gestión y desarrollo de software
+ basada en un proceso iterativo e incremental utilizado comúnmente en entornos
+ basados en el desarrollo ágil de software.
+ .
+\end_layout
+
+\begin_layout Section
+Relación entre Scrum y la Práctica
+\end_layout
+
+\begin_layout Subsection
+Descripción de las actividades desarrolladas en cada etapa del Proceso
+\end_layout
+
+\begin_layout Standard
+Las actividades siguen los pasos descriptos en la 
+\begin_inset CommandInset ref
+LatexCommand nameref
+reference "fig:Infografía-Scrum"
+
+\end_inset
+
+
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Ruiz de Mendarozqueta, Álvaro.
+ 2014.
+ 
+\emph on
+Paradigmas y Procesos
+\emph default
+.
+ En: Ingeniería de Software - Maestría en Ingeniería en Sistemas de Información,
+ Córdoba, Argentina, junio, 2014
+\end_layout
+
+\end_inset
+
+ (Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Infografía-Scrum"
+
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement h
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename fichaSinop.png
+	lyxscale 40
+	scale 40
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Infografía Scrum
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Infografía-Scrum"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Se comienza con la visión general del producto, especificando y dando detalle
+ a las funcionalidades o partes que tienen mayor prioridad para el cliente,
+ y que pueden llevarse acabo en un periodo de tiempo breve (según los casos
+ pueden tener duraciones desde una semana hasta no más de un mes).
+ Cada uno de estos periodos de desarrollo es una iteración que finaliza
+ con la entrega de una parte (incremento) operativa del producto.
+ Estas iteraciones son la base del desarrollo ágil, y Scrum gestiona su
+ evolución en reuniones breves diarias donde todo el equipo revisa el trabajo
+ realizado el día anterior y el previsto para el siguiente.
+ 
+\end_layout
+
+\begin_layout Standard
+Cada iteración (Sprint) tiene, además, una clara función docimológica.
+\end_layout
+
+\begin_layout Paragraph
+Implementación 
+\end_layout
+
+\begin_layout Description
+Pila
+\begin_inset space ~
+\end_inset
+
+del
+\begin_inset space ~
+\end_inset
+
+producto: La lista de requerimientos será confeccionada por todo el grupo
+ de trabajo con la guía del docente e interactuando con los docentes (dueños
+ del producto) del ITS-Villada.
+ La participación de todo el grupo en la confección y análisis de los requerimie
+ntos tiene una finalidad didáctica-educativa buscando lograr que los alumnos
+ se enfrenten a este tipo de situaciones en donde el que necesita el sistema,
+ no sabe bien que necesita; tampoco sabe como lo quiere.
+ Con esto, las distintas preguntas que puedan surgir por parte de algún
+ participante al momento de ir descubriendo la necesidad del sistema, serán
+ enriquecedoras para el resto de los presentes.
+ 
+\end_layout
+
+\begin_layout Description
+Pila
+\begin_inset space ~
+\end_inset
+
+del
+\begin_inset space ~
+\end_inset
+
+sprint: La lista de tareas de cada sprint será confeccionada, como se prevé,
+ en la reunión del planeamiento.
+ El docente tiene que velar para que las estimaciones y las tareas sean
+ acordes al desempeño de los integrantes de cada grupo y de esta forma no
+ generar desfasaje entre tiempo real empleado y el estimado.
+ La asignación de tareas a cada integrante será un trabajo importante que
+ deberá supervisar el docente interviniendo para que los alumnos asuman
+ tareas en las cuales se sientan a gusto y puedan cumplir acabadamente según
+ sus destrezas.
+\end_layout
+
+\begin_layout Description
+Incremento: La definición de los incrementos será supervisada constantemente
+ por el docente, de manera tal que no se planteen objetivos difíciles de
+ cumplir por el equipo de trabajo y esto conlleve a un desánimo de los estudiant
+es.
+ Por esto es muy importante la presencia de los docentes en las reuniones
+ de planificación del sprint.
+ 
+\end_layout
+
+\begin_layout Subsection
+Evaluación de los aprendizajes de los alumnos en el Proyecto
+\end_layout
+
+\begin_layout Standard
+La metodología Scrum prevé una serie de reuniones que serán claves a la
+ hora de evaluar, representadas en el siguiente gráfico: 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement h
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename reuniones.png
+	lyxscale 70
+	scale 50
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Reuniones
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Reuniones 
+\end_layout
+
+\begin_layout Paragraph
+Planificación del sprint 
+\end_layout
+
+\begin_layout Standard
+Jornada de trabajo previa al inicio de cada sprint en la que se determina
+ cuál va a ser el trabajo y los objetivos que se deben conseguir en la iteración.
+ 
+\end_layout
+
+\begin_layout Paragraph*
+Algunas características: 
+\end_layout
+
+\begin_layout Itemize
+Duración máxima 1 día.
+ 
+\end_layout
+
+\begin_layout Itemize
+Se determinan las funcionalidades que se desarrollarán en el sprint.
+ 
+\end_layout
+
+\begin_layout Itemize
+Cada funcionalidad se desglosa en tareas.
+ 
+\end_layout
+
+\begin_layout Itemize
+Cada tarea se estima y se asigna a una persona del equipo.
+ 
+\end_layout
+
+\begin_layout Itemize
+El resultado es la pila del sprint.
+\end_layout
+
+\begin_layout Paragraph
+Seguimiento del sprint 
+\end_layout
+
+\begin_layout Standard
+Breve revisión diaria, en la que cada miembro describe tres cuestiones:
+ 
+\end_layout
+
+\begin_layout Enumerate
+El trabajo que realizó el día anterior.
+ 
+\end_layout
+
+\begin_layout Enumerate
+El que tiene previsto realizar.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Cosas que puede necesitar o impedimentos que deben suprimirse para realizar
+ el trabajo.
+ 
+\end_layout
+
+\begin_layout Standard
+Cada persona actualiza en la pila del sprint el tiempo pendiente de sus
+ tareas, y con esta información se actualiza también el gráfico con el que
+ el equipo monitoriza el avance del sprint (burn-down).
+\end_layout
+
+\begin_layout Paragraph
+Revisión del sprint 
+\end_layout
+
+\begin_layout Standard
+Análisis y revisión del incremento generado.
+ Esta reunión es realizada al final del sprint en la que, con una duración
+ máxima de 4 horas, el equipo presenta al propietario del producto, clientes,
+ usuarios, gestores...
+ el incremento construido en el sprint.
+ 
+\end_layout
+
+\begin_layout Standard
+Desde la premisa de flexibilidad de Scrum Manager, se puede considerar también
+ la realización de reuniones retrospectivas al final de cada sprint, o de
+ cada versión de producto o cada cierto periodo de tiempo.
+ 
+\end_layout
+
+\begin_layout Standard
+Conviene señalar que una reunión retrospectiva no es lo mismo que la reunión
+ de revisión del sprint.
+ El objetivo de la revisión del sprint es analizar “QUÉ” se está construyendo,
+ mientras que una reunión retrospectiva se centra en “CÓMO” lo estamos construye
+ndo: “CÓMO” estamos trabajando, con el objetivo de analizar problemas y
+ aspectos mejorables.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FloatList figure
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+renewcommand{
+\backslash
+partname}{Bloque}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+setcounter{secnumdepth}{1} 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part
+Entorno
+\end_layout
+
+\begin_layout Section
+Responsables intervinientes
+\end_layout
+
+\begin_layout Itemize
+Coordinadora de la Fundación TEA.
+\end_layout
+
+\begin_layout Itemize
+Designado por la empresa Taller Technologies.
+\end_layout
+
+\begin_layout Itemize
+Jefe de Sección Programación, ITS Villada.
+\end_layout
+
+\begin_layout Itemize
+Docentes de Formación en Ambiente de Trabajo.
+\end_layout
+
+\begin_layout Itemize
+Docentes de la especialidad Programación.
+\end_layout
+
+\begin_layout Section
+Definición del entorno, recursos materiales/insumos
+\end_layout
+
+\begin_layout Subsection
+Espacios Físicos
+\end_layout
+
+\begin_layout Standard
+Espacios propios previstos para tal fin.
+ La Fundación TEA Córdoba.
+ Empresa Taller Technologies.
+\end_layout
+
+\begin_layout Subsection
+Evaluación Preliminar de los requisitos del Proyecto
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="7" columns="9">
+<features tabularvalignment="middle">
+<column alignment="left" valignment="middle" width="2.3cm">
+<column alignment="center" valignment="middle" width="0.6cm">
+<column alignment="center" valignment="middle" width="0.6cm">
+<column alignment="center" valignment="middle" width="0.75cm">
+<column alignment="center" valignment="middle" width="0.75cm">
+<column alignment="left" valignment="middle" width="2.5cm">
+<column alignment="center" valignment="middle" width="0.75cm">
+<column alignment="center" valignment="middle" width="0.75cm">
+<column alignment="left" valignment="middle" width="3cm">
+<row>
+<cell multirow="3" alignment="left" valignment="middle" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+Concepto
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="middle" topline="true" bottomline="true" leftline="true" usebox="none" width="1.2cm">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+Para el Proyecto ¿se requiere?
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="middle" topline="true" bottomline="true" leftline="true" usebox="none" width="1.5cm">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+Si se requiere ¿implica Costos?
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+Si implica costos ¿Cómo se financia? Donaciones, Aportes institucionales,
+ plan de mejoras
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="middle" topline="true" bottomline="true" leftline="true" usebox="none" width="1.5cm">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+Si se requiere, influye en la fecha de inicio del Proyecto
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell mroffset="2.7cm" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Si influye en el inicio ¿Cómo? Postergando la iniciación, reformulando el
+ proyecto, descartandolo
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="4" alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="middle" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+SI
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="middle" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+NO
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="middle" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+SI
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="middle" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+NO
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="middle" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+SI
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="middle" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+NO
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="middle" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+Infraestructura edilicia e instalaciones
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="middle" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+X
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="middle" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="middle" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+X
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="middle" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="middle" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+Aportes institucionales
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="middle" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="middle" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+X
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="middle" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="middle" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+Equipamientos
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="middle" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+X
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="middle" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="middle" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+X
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="middle" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="middle" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+Plan de Mejoras
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="middle" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="middle" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+X
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="middle" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="middle" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+Recursos Humanos
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="middle" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+X
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="middle" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="middle" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+X
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="middle" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="middle" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="middle" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="middle" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="middle" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="middle" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+Nuevos
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="middle" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+X
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="middle" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="middle" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+X
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="middle" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="middle" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+Aportes institucionales (para cubrir las horas del Coordinador del Proyecto)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="middle" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+X
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="middle" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="middle" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+Postergándolo
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+Capacitación
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="middle" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="middle" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+X
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="middle" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="middle" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Recursos humanos 
+\end_layout
+
+\begin_layout Standard
+Grupo de 7 alumnos de 7º “C”, especialidad Programación.
+\end_layout
+
+\begin_layout Standard
+En mayor o menor medida los docentes de la especialidad Programación.
+ 
+\end_layout
+
+\begin_layout Subsection
+Recursos Materiales 
+\end_layout
+
+\begin_layout Standard
+Computadoras de la Institución.
+ Herramientas de la Institución.
+ Notebook de los alumnos.
+ Espacios de trabajo condicionados para la Práctica.
+ 
+\end_layout
+
+\begin_layout Subsection
+Recursos Económicos 
+\end_layout
+
+\begin_layout Standard
+Previstos por nuestra propia institución.
+\end_layout
+
+\begin_layout Standard
+Aunque estamos abiertos a otras fuentes de financiamiento
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Plan de mejoras, donaciones, proyectos con ADEC, etc
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Section
+Entidades intervinientes 
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Entidades-intervinientes"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Además de la propia Institución educativa y de la Fundación TEA Córdoba,
+ esperamos contar con la colaboración de la empresa Taller Tecnologies.
+\end_layout
+
+\begin_layout Section
+Proyección para el ciclo siguiente
+\end_layout
+
+\begin_layout Standard
+Auguramos un trabajo muy interesante, por lo prometedor de la propuesta.
+ De cumplirse nuestros propósitos repetiríamos la experiencia el año siguiente
+ dotando al sitio de nuevas funcionalidades, y de nuevos niveles los juegos.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Section*
+Descripción de las funciones o roles de los docentes participantes en el
+ proyecto
+\end_layout
+
+\begin_layout Plain Layout
+Los docentes de la especialidad sólo son tutores-guía que observan el desempeño
+ del alumno y articulan con docentes de otras áreas para el apoyo didáctico
+ en la recuperación de saberes.
+ 
+\end_layout
+
+\begin_layout Plain Layout
+Los docentes de las demás áreas formativas serán los encargados de apoyar
+ , en caso de ser necesario, el proceso de recuperar saberes adquiridos
+ en años anteriores y de realizar las adecuaciones en base a las necesidades
+ de cada alumno para el desarrollo del producto objeto del proyecto.
+ 
+\end_layout
+
+\begin_layout Plain Layout
+Se prevé la intervención de Profesionales del medio
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Gracias a la cooperación de las empresas Santex y Taller Technologies.
+\end_layout
+
+\end_inset
+
+, como coaching en determinadas áreas específicas.
+ 
+\end_layout
+
+\begin_layout Plain Layout
+Los docentes serán los denominados “propietarios del producto” o “Product
+ Owner”.
+ 
+\end_layout
+
+\begin_layout Plain Layout
+Los roles, según cada proyecto estará a cargo de los siguientes docentes.
+ 
+\end_layout
+
+\begin_layout Itemize
+Proyecto 1: Sistema de Gestión para la Secretaría del Instituto Parroquial
+ San José (Nivel Superior).
+ Prof.
+ Pablo Cánepa 
+\end_layout
+
+\begin_layout Itemize
+Proyecto 2: Sistema de seguimiento de alumnos del 1º ciclo para las rotaciones
+ del Taller del Instituto Técnico Salesiano Villada.
+ Prof.
+ Juan Pablo Carta.
+ 
+\end_layout
+
+\begin_layout Itemize
+Proyecto 3: Sistemas para la Fundación TEA (Transtorno del Expectro Autista)
+ Córdoba.
+ Prof.
+ Gonzalo Dalto.
+ 
+\end_layout
+
+\begin_layout Plain Layout
+Una tarea importante de los docentes a cargo en la implementación de Scrum,
+ será lograr que los “product owners” se involucren activamente en el desarrollo
+ del sistema.
+ 
+\end_layout
+
+\begin_layout Plain Layout
+Alternativamente, esta previsto involucrar a estos docentes para que sean
+ parte de la evaluación del grupo en la reunión de retrospectiva, pudiendo
+ participar , si así lo decidieran, en la acreditación académica de cada
+ integrante del grupo donde participa.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
